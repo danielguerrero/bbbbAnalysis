@@ -1,10 +1,3 @@
-/*
-** class  : skim_ntuple.cpp
-** author : L. Cadamuro (UF)
-** date   : 31/12/2017
-** brief  : transforms a NanoAOD into a bbbb ntuple for the subsequent plots/analysis
-*/
-
 #include <iostream>
 #include <string>
 #include <iomanip>
