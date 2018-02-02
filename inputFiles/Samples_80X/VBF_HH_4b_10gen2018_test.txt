@@ -1,0 +1,10 @@
+root://cmsxrootd.fnal.gov//store/user/lcadamur/NanoTest/VBFHHTo4B_CV_1_C2V_1_C3_1_13TeV-madgraph/VBFHbbNanoAOD_10Gen2018/180110_005708/0000/test80X_NANO_1.root
+root://cmsxrootd.fnal.gov//store/user/lcadamur/NanoTest/VBFHHTo4B_CV_1_C2V_1_C3_1_13TeV-madgraph/VBFHbbNanoAOD_10Gen2018/180110_005708/0000/test80X_NANO_2.root
+root://cmsxrootd.fnal.gov//store/user/lcadamur/NanoTest/VBFHHTo4B_CV_1_C2V_1_C3_1_13TeV-madgraph/VBFHbbNanoAOD_10Gen2018/180110_005708/0000/test80X_NANO_3.root
+root://cmsxrootd.fnal.gov//store/user/lcadamur/NanoTest/VBFHHTo4B_CV_1_C2V_1_C3_1_13TeV-madgraph/VBFHbbNanoAOD_10Gen2018/180110_005708/0000/test80X_NANO_4.root
+root://cmsxrootd.fnal.gov//store/user/lcadamur/NanoTest/VBFHHTo4B_CV_1_C2V_1_C3_1_13TeV-madgraph/VBFHbbNanoAOD_10Gen2018/180110_005708/0000/test80X_NANO_5.root
+root://cmsxrootd.fnal.gov//store/user/lcadamur/NanoTest/VBFHHTo4B_CV_1_C2V_1_C3_1_13TeV-madgraph/VBFHbbNanoAOD_10Gen2018/180110_005708/0000/test80X_NANO_6.root
+root://cmsxrootd.fnal.gov//store/user/lcadamur/NanoTest/VBFHHTo4B_CV_1_C2V_1_C3_1_13TeV-madgraph/VBFHbbNanoAOD_10Gen2018/180110_005708/0000/test80X_NANO_7.root
+root://cmsxrootd.fnal.gov//store/user/lcadamur/NanoTest/VBFHHTo4B_CV_1_C2V_1_C3_1_13TeV-madgraph/VBFHbbNanoAOD_10Gen2018/180110_005708/0000/test80X_NANO_8.root
+root://cmsxrootd.fnal.gov//store/user/lcadamur/NanoTest/VBFHHTo4B_CV_1_C2V_1_C3_1_13TeV-madgraph/VBFHbbNanoAOD_10Gen2018/180110_005708/0000/test80X_NANO_9.root
+root://cmsxrootd.fnal.gov//store/user/lcadamur/NanoTest/VBFHHTo4B_CV_1_C2V_1_C3_1_13TeV-madgraph/VBFHbbNanoAOD_10Gen2018/180110_005708/0000/test80X_NANO_10.root
