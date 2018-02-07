@@ -30,7 +30,8 @@ class NanoAODTree_SetBranchImpl {
             chain_(chain),
             trg_reader_(chain),
             old_tree_nr_(-1),
-            nEv_(-1)
+            nEv_(-1),
+            is_data_ (isData)
         {}
         ~NanoAODTree_SetBranchImpl (){};
 
@@ -46,6 +47,7 @@ class NanoAODTree_SetBranchImpl {
 
         int old_tree_nr_; // the current tree
         Long64_t nEv_; // the current event
+        bool is_data_;
 
         // declare readers
         // you can get the following list with the script generate_NanoAODTree_SetBranchImpl_vars.py
