@@ -68,6 +68,11 @@ for eff,path in effs:
         #     found.append((eff,path))
 
 print "\n\nI found", len(found), "triggers UNPRESCALED and eff > ", 100.*min_eff , "%"
+
+#Save list of the best trigger paths
+text_file = open("efficiencies_unprescaled.txt", "w")
 for eff, path in found:
+    text_file.write("{:<100} {:.4f}\n".format(path, eff)) 
     print "{:<100} with eff = {:.1f}%".format(path, 100.*eff)
     # print "UNPRESCALED: ", path, " . eff =", 100.*eff , "%"
+text_file.close()
