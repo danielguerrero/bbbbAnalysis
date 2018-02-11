@@ -35,7 +35,7 @@ print "\n\n\n"
 
 ####### filter the triggers
 
-min_eff = 0.02 ## at least 2%
+min_eff = 0.0193 ## at least 2%
 found = []
 for eff,path in effs:
     if eff > min_eff:

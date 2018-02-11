@@ -20,3 +20,4 @@ HLT_Rsq0p02_MR550_TriPFJet80_60_40_DoubleBTagCSV_p063_Mbb60_200                 
 HLT_PFHT750_4JetPt80                                                                                 0.0220
 HLT_HT430to450                                                                                       0.0209
 HLT_AK8PFHT700_TrimR0p1PT0p03Mass50                                                                  0.0201
+HLT_HT450to470                                                                                       0.0194

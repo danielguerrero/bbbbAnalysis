@@ -1,0 +1,131 @@
+
+                                                             *** Optimal OR Trigger Efficiencies (Case 2) ***
+
+
+[RESULTS] Optimal OR Trigger Efficiencies using one HLT path
+
+Eff =  21.32%          PATH:                                                         HLT_HT430_650
+Eff =  13.93%          PATH:                                      HLT_QuadJet45_TripleBTagCSV_p087
+Eff =  12.39%          PATH:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087
+Eff =  10.14%          PATH:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240
+Eff =   7.42%          PATH:                               HLT_PFHT400_SixJet30_DoubleBTagCSV_p056
+Eff =   6.33%          PATH:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500
+Eff =   4.92%          PATH:      HLT_DoubleJetsC112_DoubleBTagCSV_p014_DoublePFJetsC112MaxDeta1p6
+Eff =   3.49%          PATH:                                     HLT_PFHT450_SixJet40_BTagCSV_p056
+Eff =   2.92%          PATH:                HLT_DoubleJetsC112_DoubleBTagCSV_p026_DoublePFJetsC172
+Eff =   2.81%          PATH:                                                  HLT_PFHT800_4JetPt50
+Eff =    2.6%          PATH:                                                  HLT_PFHT750_4JetPt70
+Eff =    2.4%          PATH:                                                           HLT_PFHT900
+Eff =   2.32%          PATH:                          HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p20
+Eff =   2.32%          PATH:                         HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p087
+Eff =   2.27%          PATH:                                                  HLT_PFHT850_4JetPt50
+Eff =   2.23%          PATH:       HLT_Rsq0p02_MR550_TriPFJet80_60_40_DoubleBTagCSV_p063_Mbb60_200
+Eff =    2.2%          PATH:                                                  HLT_PFHT750_4JetPt80
+Eff =   2.01%          PATH:                                   HLT_AK8PFHT700_TrimR0p1PT0p03Mass50
+
+[RESULTS] Optimal OR Trigger Efficiencies using two HLT paths (eff>=0.17)
+
+Eff =  26.37%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                         HLT_HT430_650
+Eff =  26.09%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                                                         HLT_HT430_650
+Eff =  25.14%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                         HLT_HT430_650
+Eff =  24.37%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                                                         HLT_HT430_650
+Eff =  22.37%         PATHS:                               HLT_PFHT400_SixJet30_DoubleBTagCSV_p056                                                         HLT_HT430_650
+Eff =  21.94%         PATHS:       HLT_Rsq0p02_MR550_TriPFJet80_60_40_DoubleBTagCSV_p063_Mbb60_200                                                         HLT_HT430_650
+Eff =  21.78%         PATHS:      HLT_DoubleJetsC112_DoubleBTagCSV_p014_DoublePFJetsC112MaxDeta1p6                                                         HLT_HT430_650
+Eff =  21.38%         PATHS:                HLT_DoubleJetsC112_DoubleBTagCSV_p026_DoublePFJetsC172                                                         HLT_HT430_650
+Eff =  21.34%         PATHS:                                     HLT_PFHT450_SixJet40_BTagCSV_p056                                                         HLT_HT430_650
+Eff =  21.32%         PATHS:                                                           HLT_PFHT900                                                         HLT_HT430_650
+Eff =  21.32%         PATHS:                                                  HLT_PFHT850_4JetPt50                                                         HLT_HT430_650
+Eff =  21.32%         PATHS:                                                  HLT_PFHT800_4JetPt50                                                         HLT_HT430_650
+Eff =  21.32%         PATHS:                                                  HLT_PFHT750_4JetPt80                                                         HLT_HT430_650
+Eff =  21.32%         PATHS:                                                  HLT_PFHT750_4JetPt70                                                         HLT_HT430_650
+Eff =  21.32%         PATHS:                                   HLT_AK8PFHT700_TrimR0p1PT0p03Mass50                                                         HLT_HT430_650
+Eff =  21.32%         PATHS:                          HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p20                                                         HLT_HT430_650
+Eff =  21.32%         PATHS:                         HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p087                                                         HLT_HT430_650
+Eff =  21.07%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240
+Eff =  19.61%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240
+Eff =  18.75%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500
+Eff =  17.12%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087
+Eff =  17.02%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500
+
+[RESULTS] Optimal OR Trigger Efficiencies using three HLT paths (eff>=0.24)
+
+Eff =  30.37%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                         HLT_HT430_650
+Eff =  29.51%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                         HLT_HT430_650
+Eff =  28.78%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                         HLT_HT430_650
+Eff =  28.18%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                         HLT_HT430_650
+Eff =  28.01%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                                                         HLT_HT430_650
+Eff =   27.7%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                         HLT_HT430_650
+Eff =   27.2%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                               HLT_PFHT400_SixJet30_DoubleBTagCSV_p056                                                         HLT_HT430_650
+Eff =   26.9%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240       HLT_Rsq0p02_MR550_TriPFJet80_60_40_DoubleBTagCSV_p063_Mbb60_200                                                         HLT_HT430_650
+Eff =  26.75%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240      HLT_DoubleJetsC112_DoubleBTagCSV_p014_DoublePFJetsC112MaxDeta1p6                                                         HLT_HT430_650
+Eff =  26.67%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                               HLT_PFHT400_SixJet30_DoubleBTagCSV_p056                                                         HLT_HT430_650
+Eff =  26.57%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087       HLT_Rsq0p02_MR550_TriPFJet80_60_40_DoubleBTagCSV_p063_Mbb60_200                                                         HLT_HT430_650
+Eff =  26.51%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087      HLT_DoubleJetsC112_DoubleBTagCSV_p014_DoublePFJetsC112MaxDeta1p6                                                         HLT_HT430_650
+Eff =  26.43%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                HLT_DoubleJetsC112_DoubleBTagCSV_p026_DoublePFJetsC172                                                         HLT_HT430_650
+Eff =  26.39%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                     HLT_PFHT450_SixJet40_BTagCSV_p056                                                         HLT_HT430_650
+Eff =  26.37%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                           HLT_PFHT900                                                         HLT_HT430_650
+Eff =  26.37%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                  HLT_PFHT850_4JetPt50                                                         HLT_HT430_650
+Eff =  26.37%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                  HLT_PFHT800_4JetPt50                                                         HLT_HT430_650
+Eff =  26.37%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                  HLT_PFHT750_4JetPt80                                                         HLT_HT430_650
+Eff =  26.37%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                  HLT_PFHT750_4JetPt70                                                         HLT_HT430_650
+Eff =  26.37%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                   HLT_AK8PFHT700_TrimR0p1PT0p03Mass50                                                         HLT_HT430_650
+Eff =  26.37%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                          HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p20                                                         HLT_HT430_650
+Eff =  26.37%         PATHS:                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                         HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p087                                                         HLT_HT430_650
+Eff =  26.15%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                HLT_DoubleJetsC112_DoubleBTagCSV_p026_DoublePFJetsC172                                                         HLT_HT430_650
+Eff =  26.11%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                                     HLT_PFHT450_SixJet40_BTagCSV_p056                                                         HLT_HT430_650
+Eff =   26.1%         PATHS:                               HLT_PFHT400_SixJet30_DoubleBTagCSV_p056                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                         HLT_HT430_650
+Eff =  26.09%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                                                           HLT_PFHT900                                                         HLT_HT430_650
+Eff =  26.09%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                                                  HLT_PFHT850_4JetPt50                                                         HLT_HT430_650
+Eff =  26.09%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                                                  HLT_PFHT800_4JetPt50                                                         HLT_HT430_650
+Eff =  26.09%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                                                  HLT_PFHT750_4JetPt80                                                         HLT_HT430_650
+Eff =  26.09%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                                                  HLT_PFHT750_4JetPt70                                                         HLT_HT430_650
+Eff =  26.09%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                                   HLT_AK8PFHT700_TrimR0p1PT0p03Mass50                                                         HLT_HT430_650
+Eff =  26.09%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                          HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p20                                                         HLT_HT430_650
+Eff =  26.09%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                         HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p087                                                         HLT_HT430_650
+Eff =  25.69%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500       HLT_Rsq0p02_MR550_TriPFJet80_60_40_DoubleBTagCSV_p063_Mbb60_200                                                         HLT_HT430_650
+Eff =  25.57%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500      HLT_DoubleJetsC112_DoubleBTagCSV_p014_DoublePFJetsC112MaxDeta1p6                                                         HLT_HT430_650
+Eff =   25.2%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                HLT_DoubleJetsC112_DoubleBTagCSV_p026_DoublePFJetsC172                                                         HLT_HT430_650
+Eff =  25.18%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                               HLT_PFHT400_SixJet30_DoubleBTagCSV_p056                                                         HLT_HT430_650
+Eff =  25.16%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                     HLT_PFHT450_SixJet40_BTagCSV_p056                                                         HLT_HT430_650
+Eff =  25.14%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                           HLT_PFHT900                                                         HLT_HT430_650
+Eff =  25.14%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                  HLT_PFHT850_4JetPt50                                                         HLT_HT430_650
+Eff =  25.14%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                  HLT_PFHT800_4JetPt50                                                         HLT_HT430_650
+Eff =  25.14%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                  HLT_PFHT750_4JetPt80                                                         HLT_HT430_650
+Eff =  25.14%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                  HLT_PFHT750_4JetPt70                                                         HLT_HT430_650
+Eff =  25.14%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                   HLT_AK8PFHT700_TrimR0p1PT0p03Mass50                                                         HLT_HT430_650
+Eff =  25.14%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                          HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p20                                                         HLT_HT430_650
+Eff =  25.14%         PATHS:                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                         HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p087                                                         HLT_HT430_650
+Eff =  24.88%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087       HLT_Rsq0p02_MR550_TriPFJet80_60_40_DoubleBTagCSV_p063_Mbb60_200                                                         HLT_HT430_650
+Eff =  24.68%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087      HLT_DoubleJetsC112_DoubleBTagCSV_p014_DoublePFJetsC112MaxDeta1p6                                                         HLT_HT430_650
+Eff =  24.42%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                HLT_DoubleJetsC112_DoubleBTagCSV_p026_DoublePFJetsC172                                                         HLT_HT430_650
+Eff =  24.39%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                                     HLT_PFHT450_SixJet40_BTagCSV_p056                                                         HLT_HT430_650
+Eff =  24.37%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                                                           HLT_PFHT900                                                         HLT_HT430_650
+Eff =  24.37%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                                                  HLT_PFHT850_4JetPt50                                                         HLT_HT430_650
+Eff =  24.37%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                                                  HLT_PFHT800_4JetPt50                                                         HLT_HT430_650
+Eff =  24.37%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                                                  HLT_PFHT750_4JetPt80                                                         HLT_HT430_650
+Eff =  24.37%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                                                  HLT_PFHT750_4JetPt70                                                         HLT_HT430_650
+Eff =  24.37%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                                   HLT_AK8PFHT700_TrimR0p1PT0p03Mass50                                                         HLT_HT430_650
+Eff =  24.37%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                          HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p20                                                         HLT_HT430_650
+Eff =  24.37%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                         HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p087                                                         HLT_HT430_650
+
+[RESULTS] Optimal OR Trigger Efficiencies using four HLT paths (eff>=0.30)
+
+Eff =  32.03%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                         HLT_HT430_650
+Eff =  31.95%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                         HLT_HT430_650
+Eff =  31.14%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                         HLT_HT430_650
+Eff =  30.85%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                               HLT_PFHT400_SixJet30_DoubleBTagCSV_p056                                                         HLT_HT430_650
+Eff =  30.78%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240       HLT_Rsq0p02_MR550_TriPFJet80_60_40_DoubleBTagCSV_p063_Mbb60_200                                                         HLT_HT430_650
+Eff =  30.73%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240      HLT_DoubleJetsC112_DoubleBTagCSV_p014_DoublePFJetsC112MaxDeta1p6                                                         HLT_HT430_650
+Eff =  30.43%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                HLT_DoubleJetsC112_DoubleBTagCSV_p026_DoublePFJetsC172                                                         HLT_HT430_650
+Eff =  30.39%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                     HLT_PFHT450_SixJet40_BTagCSV_p056                                                         HLT_HT430_650
+Eff =  30.37%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                           HLT_PFHT900                                                         HLT_HT430_650
+Eff =  30.37%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                  HLT_PFHT850_4JetPt50                                                         HLT_HT430_650
+Eff =  30.37%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                  HLT_PFHT800_4JetPt50                                                         HLT_HT430_650
+Eff =  30.37%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                  HLT_PFHT750_4JetPt80                                                         HLT_HT430_650
+Eff =  30.37%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                                  HLT_PFHT750_4JetPt70                                                         HLT_HT430_650
+Eff =  30.37%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                   HLT_AK8PFHT700_TrimR0p1PT0p03Mass50                                                         HLT_HT430_650
+Eff =  30.37%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                          HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p20                                                         HLT_HT430_650
+Eff =  30.37%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                         HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p087                                                         HLT_HT430_650
+Eff =  30.33%         PATHS:                           HLT_DoubleJet90_Double30_TripleBTagCSV_p087                             HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                         HLT_HT430_650
+Eff =  30.04%         PATHS:                                      HLT_QuadJet45_TripleBTagCSV_p087                               HLT_PFHT400_SixJet30_DoubleBTagCSV_p056                                 HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500                                                         HLT_HT430_650
