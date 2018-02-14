@@ -246,8 +246,39 @@ int main(int argc, char** argv)
         //     cout << "** " <<  ij << " mothIdx " << endl; 
         // }
 
+        // --- - --- - --- --- - --- - --- --- - --- - --- 
+        // auto jets_all  = oph::make_jets(nat);
+        // auto jets_pt50 = oph::make_jets(nat);
+        // oph::filter_jets(jets_pt50,
+        //     std::function<bool (Jet)> ([](Jet jet) -> bool {return jet.P4().Pt() > 50;})
+        // );
+
+        // auto jets_pt50 = oph::make_jets (
+        //     nat,
+        //     std::function<bool (Jet)> ([](Jet jet) -> bool {return jet.P4().Pt() > 50;})
+        // );
+        // auto jets_pt50_etapos = oph::make_jets(
+        //     nat,
+        //     std::function<bool (Jet)> ([](Jet jet) -> bool {return (jet.P4().Pt() > 50 && jet.P4().Eta() > 0);})
+        // );
+
+        // cout << "ALL - iEv " << iEv << endl;
+        // for (auto& j : jets_all)
+        //     cout << j.P4().Pt() << " " << j.P4().Eta() << endl;
+
+        // cout << "PT 50 - iEv " << iEv << endl;
+        // for (auto& j : jets_pt50)
+        //     cout << j.P4().Pt() << " " << j.P4().Eta() << endl;
+        
+        // cout << "PT 50 - eta pos iEv " << iEv << endl;
+        // for (auto& j : jets_pt50_etapos)
+        //     cout << j.P4().Pt() << " " << j.P4().Eta() << endl;
+
+        // --- - --- - --- --- - --- - --- --- - --- - --- 
+
         ec.updateSelected(w_fixme);
         su::fill_output_tree(ot, nat, ei);
+
     }
 
     outputFile.cd();

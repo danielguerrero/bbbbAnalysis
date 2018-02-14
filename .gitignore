@@ -4,3 +4,5 @@
 *.lib
 *.pyc
 *.root
+*.tar.gz
+jobs_*/

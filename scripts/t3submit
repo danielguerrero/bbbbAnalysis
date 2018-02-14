@@ -1,0 +1,68 @@
+#! /bin/bash
+
+##H
+##H t3submit -h [-short|-long] SCRIPT
+##H
+##H Submits a job to the T3 HTCondor Cluster
+##H
+##H -short|-long : decide which "queue" the job should be sent to. "short" queue has a time limit of 120 minutes but
+##H                can take all the resources in the cluster. "long" queue has a time limit of 10days but can take
+##H                only a fraction (roughly 60%) of resources.
+##H
+##H SCRIPT       : your job script
+##H
+##H -h           : print this help
+##H
+
+queue="long";
+
+while [ $# -ge 1 ]; do
+  case $1 in
+    -short ) queue="short"; shift ;;
+    -long ) queue="long"; shift ;;
+    -h|-help ) grep '##H' $0|grep -v grep|cut -d 'H' -f 2-;exit 0;;
+    -* ) echo "unrecognized option";exit 1;;
+     * ) break;;
+  esac
+done
+
+command=$1
+
+if [ "x$command" == "x" ];
+then
+  echo "Missing script"
+  exit 1
+fi
+
+# condor_submit -name llrt3condor.in2p3.fr <<EOF
+# Universe       = vanilla
+# Executable     = $command
+
+# input   = /dev/null
+# output  = $command.o\$(Cluster)
+# error   = $command.e\$(Cluster)
+
+# getenv = true
+
+# T3Queue = $queue
+
+# include : /opt/exp_soft/cms/t3/t3queue |
+# #Queue
+
+# EOF
+
+
+
+condor_submit <<EOF
+universe = vanilla
+Executable = $command
+Should_Transfer_Files = YES
+WhenToTransferOutput = ON_EXIT
+Output = ${command}_\$(Cluster).stdout
+Error  = ${command}_\$(Cluster).stderr
+Log    = ${command}_\$(Cluster).log
+notify_user = ${LOGNAME}@FNAL.GOV
+x509userproxy = ${X509_USER_PROXY}
+Queue 1
+
+EOF

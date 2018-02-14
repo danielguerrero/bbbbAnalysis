@@ -9,6 +9,25 @@
 
 using namespace std;
 
+std::vector<Jet> OfflineProducerHelper::make_jets(NanoAODTree& nat, const std::function<bool (Jet)>& presel_function)
+{
+    std::vector<Jet> jets;
+    for (uint ij = 0; ij < *(nat.nJet); ++ij)
+    {
+        Jet jet (ij, &nat);
+        bool pass = presel_function ? presel_function(jet) : true;
+        if (pass)
+            jets.push_back(jet);
+    }
+    return jets;
+}
+
+void OfflineProducerHelper::filter_jets(std::vector<Jet>& jets, const std::function<bool (Jet)>& filter_function)
+{
+    jets.erase(remove_if(jets.begin(), jets.end(), std::not1(filter_function)), jets.end());
+    return;
+}
+
 bool OfflineProducerHelper::select_bbbb_jets(NanoAODTree& nat, EventInfo& ei, bbbbSelectionStrategy strat)
 {
     // cout << "FIXME : select_bbbb_jets : this is just a dummy function " << endl;

@@ -9,6 +9,7 @@ Some utilities to :
 *NOTE*: some useful links to get trigger information are:
 * the summary of the menu: http://fwyzard.web.cern.ch/fwyzard/hlt/2016/summary (can replace 2016 with any year)
 * code and tools to access the prescales: https://twiki.cern.ch/twiki/bin/viewauth/CMS/HLTStandAlonePrescaleInformation
+* google doc with 2016 menu v4.2 V6 https://docs.google.com/spreadsheets/d/1bII_92pCrgk20A9FMIIHsOsYYj3f-lLjsoRkP_ZNQW4/edit#gid=1040120160
 * google doc with the full 2017 menu (gives the prescaled/uprescaled status of each path) - only for 2017 menu :
 https://docs.google.com/spreadsheets/d/1SqSKATiHcZdSB-t7rMb0SRSUL4Ot1jr2TExjnMrDUpA/edit#gid=0
 

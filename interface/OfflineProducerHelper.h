@@ -23,6 +23,13 @@
 
 namespace OfflineProducerHelper {
 
+    // build a collection of jets in the event. If a prese;_function is given, preselect the jets
+    std::vector<Jet> make_jets(NanoAODTree& nat, const std::function<bool (Jet)>& presel_function = nullptr);
+    // filter the jet collection by keeping only the elements that pass filter_function
+    void filter_jets(std::vector<Jet>& jets, const std::function<bool (Jet)>& filter_function);
+
+    // --- - --- - --- - --- - --- - --- - --- - --- - --- - --- - --- - --- - --- - --- - 
+
     enum class bbbbSelectionStrategy{
         kOneClosestToMh,
         kBothClosestToMh,
